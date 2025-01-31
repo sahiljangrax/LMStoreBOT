@@ -1,6 +1,6 @@
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @LMOwnerBot
+# Subscribe YouTube Channel For Amazing Bot https://www.youtube.com/@nokplayz7031
+# Ask Doubt on telegram @LMOwnerBot
 
 import re
 from pymongo import MongoClient
@@ -49,7 +49,7 @@ async def clone(client, message):
         mongo_db.bots.insert_one(details)
         await msg.edit_text(f"<b>sᴜᴄᴄᴇssғᴜʟʟʏ ᴄʟᴏɴᴇᴅ ʏᴏᴜʀ ʙᴏᴛ: @{bot.username}.</b>")
     except BaseException as e:
-        await msg.edit_text(f"⚠️ <b>Bot Error:</b>\n\n<code>{e}</code>\n\n**Kindly forward this message to @KingVJ01 to get assistance.**")
+        await msg.edit_text(f"⚠️ <b>Bot Error:</b>\n\n<code>{e}</code>\n\n**Kindly forward this message to @LMOwnerBot to get assistance.**")
 
 @Client.on_message(filters.command("deletecloned") & filters.private)
 async def delete_cloned_bot(client, message):
@@ -69,9 +69,9 @@ async def delete_cloned_bot(client, message):
     except:
         await message.reply_text("An error occurred while deleting the cloned bot.")
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @LMOwnerBot
+# Subscribe YouTube Channel For Amazing Bot https://www.youtube.com/@nokplayz7031
+# Ask Doubt on telegram @LMOwnerBot
 
 async def restart_bots():
     bots = list(mongo_db.bots.find())

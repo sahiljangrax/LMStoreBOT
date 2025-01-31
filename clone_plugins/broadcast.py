@@ -1,6 +1,6 @@
-# Don't Remove Credit @VJ_Botz
+# Don't Remove Credit @LMOwnerBot
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @LMOwnerBot
 
 # Clone Code Credit : YT - @Tech_VJ / TG - @VJ_Bots / GitHub - @VJBots
 
@@ -56,9 +56,9 @@ async def pm_broadcast(bot, message):
     except Exception as e:
         print(f"error: {e}")
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @LMOwnerBot
+# Subscribe YouTube Channel For Amazing Bot https://www.youtube.com/@nokplayz7031
+# Ask Doubt on telegram @LMOwnerBot
 
 async def broadcast_messages(bot_id, user_id, message):
     try:
@@ -80,6 +80,6 @@ async def broadcast_messages(bot_id, user_id, message):
         await clonedb.delete_user(bot_id, user_id)
         return False, "Error"
 
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Don't Remove Credit Tg - @LMOwnerBot
+# Subscribe YouTube Channel For Amazing Bot https://www.youtube.com/@nokplayz7031
+# Ask Doubt on telegram @LMOwnerBot
