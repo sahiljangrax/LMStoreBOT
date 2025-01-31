@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "28023575"))
 API_HASH = environ.get("API_HASH", "dedc36b693321633028848ba66aefa58")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://i.ibb.co/RYV0mdR/doc-2024-10-05-17-05-49.png')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "LMStoreBOT") # without @
 PORT = environ.get("PORT", "8080")
